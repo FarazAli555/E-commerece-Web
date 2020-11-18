@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: rgb(238 238 238);
+}
+
+.navbar-nav ul li {
+  display: inline-block;
+}
+
+.navbar-nav li a {
+  color: grey;
+  display: block;
+  text-decoration: none;
+  font-size: 13px !important;
+}
+
+.navbar-nav li a:hover {
+  color: black;
+}
+
+h1 a {
+  color: rgb(35 161 210);
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+h1 a:hover {
+  color: rgb(35 82 136);
+  text-decoration: none;
+}
+
+h6 a {
+  color: rgb(35 161 210);
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h6 a:hover {
+  color: rgb(35 82 136);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown .item-label {
+    display: none;
+  }
+
+  .navbar-nav .item-label {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-xs-6 {
+    margin-top: 10px;
+  }
+}
+
+.menu {
+  width: 100%;
+  background-color: rgb(34 156 202);
+  border-radius: 5px;
+}
+
+.menu ul {
+  padding: 2px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a {
+  color: white;
+  font-size: 12px;
+}
+
+.menu ul li a:hover {
+  background: rgb(31 141 183);
+  color: white;
+}
+
+.menu ul li ul {
+  box-shadow: 1px 1px 1px 1px #888888;
+  padding: 0px;
+  margin-top: 4px;
+  display: none;
+  position: absolute;
+  background-color: rgb(255 255 255);
+  border-radius: 0px 0px 2px 2px;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul li {
+  display: list-item;
+  width: 180px;
+}
+
+.menu ul li ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul li ul li a:hover {
+  background-color: rgb(33 154 200);
+}
+
+.menu h2 {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+.nav.showing {
+  max-height: 100em;
+}
+/* .nav .semiDropDownshowing {
+  max-height: initial;
+} */
+@media screen and (max-width: 768px) {
+  .menu {
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .menu h2 {
+    padding: 10px;
+    display: block;
+    color: white;
+    font-weight: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .menu ul {
+    width: 100%;
+    background-color: rgb(34 156 202);
+    max-height: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu ul li {
+    width: 100;
+    display: list-item;
+  }
+
+  .menu ul li ul {
+    position: static;
+    display: block;
+    box-shadow: none;
+  }
+
+  .menu ul li ul li {
+    display: list-item;
+    width: 100%;
+    background-color: rgb(31 142 184); 
+  }
+
+  .menu ul li ul li a {
+      text-decoration: none;
+      color: white;
+}
+
+  .menu-toggle {
+    background-color: rgb(30 140 181);
+    display: block;
+    right: 25px;
+    top: 15px;
+    position: absolute;
+    box-shadow: 0.5px 0.5px 1px 0.5px ;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+  }
+
+  .menu-bar{
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    margin-left: 10px;
+  }
+}
+
+#myCarousel {
+  z-index: -100;
+}
+
+.carousel-inner {
+  max-height: 450px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px grey;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner {
+    max-height: 130px;
+  }
+}
+
+.card-footer {
+  width: 100%;
+}
+
+.btn-group,
+.btn {
+  border: 1px grey;
+  border-radius: 0px;
+}
+
+#button {
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-top: 15px;
+  }
+}
+
+.client-carousel {
+  border: 2px grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px grey;
+  height: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .client-carousel {
+    height: 80px;
+  }
+
+  .img-area {
+    width: 80px;
+    margin-left: 130px;
+  }
+}
+
+footer {
+  background-color: rgb(48 48 48);
+}
+
+hr {
+  background-color: grey;
+}
+
+p a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+h6 {
+  font-weight: bold;
+  color: white;
+}
+
+.footer-copyright{
+  color: white;
+}
+
+.breadcrumb-item a{
+  text-decoration: none;
+}
